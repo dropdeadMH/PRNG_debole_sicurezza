@@ -14,3 +14,17 @@ In particolare, viene mostrato un **attacco realistico** contro un *Linear Congr
 - Confrontare l’approccio vulnerabile con una **soluzione sicura (CSPRNG)**
 
 ---
+
+## 🐍 Requisiti
+
+- Python **3.8+**
+- Nessuna dipendenza esterna
+
+---
+
+## ⚙️ Installazione
+
+   ```bash
+   git clone https://github.com/dropdeadMH/PRNG_debole_sicurezza.git
+   cd PRNG_debole_sicurezza
+   python prng.py
