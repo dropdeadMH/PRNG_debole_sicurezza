@@ -22,7 +22,7 @@ class LCG:
 # ============================================================
 
 def generate_vulnerable_token():
-    seed = int(time.time())          # SEED PREVEDIBILE!
+    seed = int(time.time())          
     prng = LCG(seed)
     token = prng.next()
     return token, seed
