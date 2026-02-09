@@ -113,9 +113,6 @@ def main():
 
     secure_token = generate_secure_token()
     print(f"[SECURE] Token sicuro: {secure_token}")
-    print("[INFO] Questo token non è predicibile né attaccabile")
-
-    print("\nDEMO COMPLETATA")
 
 
 if __name__ == "__main__":
